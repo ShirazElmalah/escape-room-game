@@ -1,0 +1,48 @@
+/* כל הדף */
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;      /* ממרכז טקסט ואלמנטים בשורה */
+  margin: 0;               /* מבטל את השוליים שהדפדפן מוסיף כברירת מחדל */
+  padding: 40px;           /* ריווח פנימי מסביב לתוכן */
+}
+
+/* הכותרת */
+h1 {
+  color: #e94560;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* פסקת ההסבר */
+p {
+  max-width: 600px;        /* לא נותן לשורה להיות רחבה מדי */
+  margin: 0 auto 30px;     /* auto בצדדים = ממרכז את הבלוק */
+  line-height: 1.6;        /* רווח בין שורות, קל יותר לקרוא */
+}
+
+/* התמונה */
+img {
+  width: 400px;
+  border-radius: 12px;     /* פינות מעוגלות */
+  display: block;          /* הופך את התמונה לבלוק בשורה משלה */
+  margin: 0 auto 30px;     /* ממרכז ומוסיף רווח מתחת */
+}
+
+/* הכפתור */
+button {
+  background-color: #e94560;
+  color: white;
+  font-size: 20px;
+  padding: 12px 32px;      /* למעלה-למטה, ימין-שמאל */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;         /* סמן של יד כשעוברים מעל */
+  transition: background-color 0.3s;
+}
+
+/* כשהעכבר מעל הכפתור */
+button:hover {
+  background-color: #ff6b81;
+}
