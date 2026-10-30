@@ -29,3 +29,40 @@ button{
     border-radius: 10px;
     cursor: pointer;
 }
+
+.room {
+  width: 700px;
+  margin: 0 auto;
+  
+}
+
+.room img {
+  width: 100%;
+}
+
+.hotspot{
+      position: absolute;
+  width: 40px;
+  height: 4%;
+  border: 2px dashed yellow;
+  cursor: pointer;
+}
+
+.hotspot:hover {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+#Elephant {
+  top: 55%;
+  left: 34%;
+}
+
+#drawer{
+    top: 81%;
+    left: 57%;
+}
+
+#camera{
+    top: 15%;
+    left: 67%;
+}
