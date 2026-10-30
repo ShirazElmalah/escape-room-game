@@ -46,3 +46,47 @@ button {
 button:hover {
   background-color: #ff6b81;
 }
+/* הקופסה של החדר: נקודת הייחוס */
+.room {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* תמונת החדר ממלאת את הקופסה */
+.room img {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* עיצוב משותף לכל נקודות הלחיצה */
+.hotspot {
+  position: absolute;
+  background-color: transparent;  /* שקוף */
+  border: none;    
+  cursor: pointer;
+  padding: 0;
+  border-radius: 0;
+}
+
+.hotspot:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+} 
+
+/* מיקום וגודל של כל נקודה */
+#door {
+  top: 38%;
+  left: 63%;
+  width: 12.5%;
+  height: 28%;
+}
+
+#key {
+  top: 58%;
+  left: 28.5%;
+  width: 8.5%;
+  height: 11%;
+  clip-path: polygon(5% 10%, 60% 5%, 80% 80%, 25% 100%);
+
+}
